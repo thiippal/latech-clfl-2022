@@ -1,0 +1,5 @@
+name: aggregate_verify_target
+source: verify_target_outlines
+actions:
+  on_result: forward_verify_target
+method: dawid_skene

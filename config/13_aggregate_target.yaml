@@ -1,0 +1,5 @@
+name: aggregate_target
+source: detect_target
+actions:
+  on_result: forward_target
+method: dawid_skene

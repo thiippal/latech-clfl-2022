@@ -1,0 +1,5 @@
+name: aggregate_detect
+source: detect_text
+actions:
+  on_result: forward_detect
+method: dawid_skene

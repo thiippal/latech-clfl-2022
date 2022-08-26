@@ -1,0 +1,9 @@
+name: forward_detect
+data:                     
+  output: result
+source: aggregate_detect
+actions:
+  on_result:
+    true: outline_text
+    false: 
+    

@@ -1,0 +1,12 @@
+name: forward_verify
+data:
+  output: result
+source: aggregate_verify
+actions:
+  on_result:
+    correct: 
+      - accept
+      - separate_bboxes
+    incorrect: reject
+    human_error: fix_outlines
+    

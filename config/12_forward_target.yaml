@@ -1,0 +1,8 @@
+name: forward_target
+data:
+  output: result
+source: aggregate_target
+actions:
+  on_result:
+    true: outline_target
+    false: 

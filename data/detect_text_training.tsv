@@ -1,0 +1,21 @@
+image	result	hint
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/2238.png	True	Yes. The image contains written labels.
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/1892.png	False	No. The image does not contain any text.
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/2055.png	True	Yes.  The image contains both written labels and captions!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/946.png	True	Yes. The image contains letters!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/837.png	True	Yes. The image contains numbers!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/673.png	True	Yes. The image contains a plus and minus sign!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/856.png	True	Yes. The image contains text in a URL!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/1824.png	False	No. The image does not contain any text.
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/2492.png	True	Yes. The image contains copyright text!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/670.png	True	Yes. The image contains a logo!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/51.png	False	No. The image does not contain any text.
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/3299.png	True	Yes. The image contains written labels.
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/727.png	True	Yes. The image contains both written labels and captions!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/1979.png	False	No. The image does not contain any text.
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/710.png	True	Yes. The image contains numbers!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/626.png	True	Yes. The image contains letters!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/2825.png	True	Yes. The image contains a plus sign and minus signs!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/2382.png	True	Yes. The image contains text in a URL!
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/866.png	False	No. The image does not contain any text.
+https://s3.datacloud.helsinki.fi/crowdsrc:ai2d/2391.png	True	Yes. The image contains a logo!

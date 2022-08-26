@@ -1,0 +1,58 @@
+name: detect_target_exam
+data:
+  file: data/detect_target_exam.tsv
+  input:
+    outlines: json
+    image: url
+  output:
+    result: bool
+interface:
+  prompt: Does the text refer to another part of the diagram?
+training:
+  setup:
+    private_name: Training for detect target exam
+    shuffle_tasks_in_task_suite: false
+    assignment_max_duration_seconds: 600
+    training_tasks_in_task_suite_count: 5
+    retry_training_after_days: 1
+    inherited_instructions: true
+  data:
+    file: data/detect_target_training.tsv
+    input:
+      outlines: json
+      image: url
+    output:
+      result: bool
+project:
+  setup:
+    public_name: "[EXAM] Examine diagrams from school textbooks"
+    public_description: "In this task you will be shown diagrams from school text books. Your task is to examine the diagrams and reason about their content."
+  instructions: instructions/detect_target_instructions.html
+pool:
+  estimated_time_per_suite: 50
+  exam:
+    history_size: 20
+    min_answers: 20
+    max_performers: 10
+  setup:
+    private_name: Exam for detecting targets
+    reward_per_assignment: 0.17
+    assignment_max_duration_seconds: 600
+    auto_accept_solutions: true
+  defaults:
+    default_overlap_for_new_tasks: 1
+    default_overlap_for_new_task_suites: 1
+  mixer:
+    real_tasks_count: 0
+    golden_tasks_count: 5
+    training_tasks_count: 0
+  training:
+    training_passing_skill_value: 70
+  skill:
+    id: 45441
+quality_control:
+  captcha:
+    frequency: LOW
+    success_rate: 80
+    ban_duration: 3
+    ban_units: DAYS
