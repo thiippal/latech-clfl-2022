@@ -30,7 +30,7 @@ pool:
     training_tasks_count: 0
   filter:
     skill:
-      - 45441: 80 #detect target skill
+      - 11431: 80 # public skill on Toloka sandbox
     client_type:
       - TOLOKA_APP
       - BROWSER

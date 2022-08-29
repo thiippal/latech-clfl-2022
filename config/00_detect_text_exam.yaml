@@ -35,7 +35,7 @@ pool:
     max_performers: 10
   setup:
     private_name: Exam for detecting text
-    reward_per_assignment: 0.03
+    reward_per_assignment: 0.035
     assignment_max_duration_seconds: 600
     auto_accept_solutions: true
   defaults:
@@ -48,7 +48,7 @@ pool:
   training:
     training_passing_skill_value: 70
   skill:
-    id: 43735
+    id: 11432 # public skill on Toloka sandbox
 quality_control:
   captcha:
     frequency: LOW

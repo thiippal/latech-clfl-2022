@@ -49,7 +49,7 @@ pool:
   training:
     training_passing_skill_value: 70
   skill:
-    id: 45441
+    id: 11431 # public skill on Toloka sandbox
 quality_control:
   captcha:
     frequency: LOW

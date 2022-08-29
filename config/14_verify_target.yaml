@@ -10,6 +10,9 @@ actions:
   on_closed: aggregate_verify_target
 interface:
   prompt: Read the instructions first. Is the diagram annotated according to the instructions?
+  labels:
+    target: Target
+    object: Source
 project:
   setup:
     public_name: "Verify outlines for elements in diagrams from school textbooks"
@@ -32,7 +35,7 @@ pool:
     training_tasks_count: 0
   filter:
     skill:
-      - 45454: 80
+      - 11434: 80 # public skill on Toloka sandbox
     languages:          
       - EN
     client_type:

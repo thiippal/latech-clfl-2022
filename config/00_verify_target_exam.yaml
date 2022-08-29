@@ -4,10 +4,14 @@ data:
   input:
     image: url
     outlines: json
+    no_target: bool
   output:
     result: bool
 interface:
   prompt: Read the instructions first. Is the diagram annotated according to the instructions?
+  labels:
+    target: Target
+    object: Source
 training:
   setup:
     private_name: Training for verifying target outlines exam
@@ -21,6 +25,7 @@ training:
     input:
       image: url
       outlines: json
+      no_target: bool
     output:
       result: bool
 project:
@@ -49,7 +54,7 @@ pool:
   training:
     training_passing_skill_value: 70
   skill:
-    id: 45454
+    id: 11434 # public skill on Toloka sandbox
 quality_control:
   captcha:
     frequency: LOW

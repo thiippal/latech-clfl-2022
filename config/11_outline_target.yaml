@@ -11,6 +11,9 @@ actions:
   on_rejected: outline_target
 interface:
   prompt: Read the instructions first. Find the part of the diagram that the text refers to and draw accurate outlines for this part.
+  labels:
+    target: Target
+    object: Source
 project:
   setup:
     public_name: "Outline elements in diagrams from school textbooks"
@@ -33,7 +36,7 @@ pool:
     training_tasks_count: 0
   filter:
     skill:
-      - 45441: 80
+      - 11431: 80 # public skill on Toloka sandbox
     languages:
       - EN
     client_type:

@@ -11,11 +11,11 @@ options:
   incorrect: "No"
   human_error: "Human error"
 interface:
-  prompt: Are all elements of text, letters or numbers outlined correctly?
+  prompt: Are all elements that contain text, letters or numbers outlined correctly?
 training:
   setup:
     private_name: Training for verify outlines exam
-    shuffle_tasks_in_task_suite: true
+    shuffle_tasks_in_task_suite: false
     assignment_max_duration_seconds: 300
     training_tasks_in_task_suite_count: 5
     retry_training_after_days: 1
@@ -54,7 +54,7 @@ pool:
   training:
     training_passing_skill_value: 70
   skill:
-    id: 43736
+    id: 11433 # public skill on Toloka sandbox
 quality_control:
   captcha:
     frequency: LOW
