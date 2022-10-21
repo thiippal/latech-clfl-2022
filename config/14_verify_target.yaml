@@ -13,6 +13,7 @@ interface:
   labels:
     target: Target
     object: Source
+  checkbox: The element marked as "Source" does not have a target.
 project:
   setup:
     public_name: "Verify outlines for elements in diagrams from school textbooks"
